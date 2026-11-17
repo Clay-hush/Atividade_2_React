@@ -48,7 +48,7 @@ npm run preview
 
 O Tailwind mantém as decisões de estilo próximas ao JSX, acelera a criação de interfaces e facilita a consistência visual com tokens e utilitários compartilhados. Em componentes React, isso torna as variações mais explícitas e reduz a necessidade de criar e nomear regras CSS para cada elemento. Os estados responsivos e interativos também ficam visíveis no próprio componente.
 
-Por outro lado, listas extensas de classes podem deixar o JSX mais difí­cil de ler, é necessário aprender a conversão do Tailwind e ajustar o tema do projeto. Regras muito especÃ­ficas, animações ou estilos com muitos seletores podem ser mais claros em CSS tradicional. Também é preciso evitar classes geradas dinamicamente, como `bg-${color}-500`, pois o Tailwind pode não encontrá-las durante a geração do CSS; mapas de classes completas (como os usados nesta biblioteca) são mais confiáveis.
+Por outro lado, listas extensas de classes podem deixar o JSX mais difí­cil de ler, é necessário aprender a conversão do Tailwind e ajustar o tema do projeto. Regras muito específicas, animações ou estilos com muitos seletores podem ser mais claros em CSS tradicional. Também é preciso evitar classes geradas dinamicamente, como `bg-${color}-500`, pois o Tailwind pode não encontrá-las durante a geração do CSS; mapas de classes completas (como os usados nesta biblioteca) são mais confiáveis.
 
 ## Estrutura
 
