@@ -1,17 +1,15 @@
-# Atividade 2 â€” Biblioteca UI com React e Tailwind CSS
+# Atividade 2 Biblioteca UI com React e Tailwind CSS
 
-Mini biblioteca de componentes reutilizÃ¡veis feita com React, Vite e Tailwind CSS. O projeto demonstra como encapsular estilos em componentes e controlar variaÃ§Ãµes por props.
+Mini biblioteca de componentes reutilizáveis feita com React, Vite e Tailwind CSS. O projeto demonstra como encapsular estilos em componentes e controlar variáveis por props.
 
-## RepositÃ³rio
-
-> Link do GitHub: serÃ¡ preenchido apÃ³s a publicaÃ§Ã£o do repositÃ³rio.
+## Repositório
 
 ## O que foi desenvolvido
 
-- **Parte 1 â€” ConfiguraÃ§Ã£o:** Tailwind CSS 3 instalado com Vite e PostCSS. O `tailwind.config.js` monitora `./src/**/*.{js,ts,jsx,tsx}`; as diretivas Tailwind estÃ£o em `src/index.css`, importado por `src/main.jsx`.
-- **Parte 2 â€” Biblioteca UI:** `Button` (`primary`, `secondary`, `danger`, `ghost`), `Badge` (`neutral`, `success`, `warning`, `error`, `info`), `Input` (rÃ³tulo, dica e estado de erro) e `Card` com subcomponentes `CardHeader`, `CardContent` e `CardFooter`.
-- **Parte 3 â€” Desafio:** `Alert` aceita `success`, `error` e `warning`, com fundo, texto, Ã­cone e papel acessÃ­vel adequados Ã  variante. TambÃ©m pode receber tÃ­tulo e callback `onClose`.
-- **Parte 4 â€” ReflexÃ£o:** vantagens e desvantagens do Tailwind CSS estÃ£o respondidas na seÃ§Ã£o abaixo e demonstradas na aplicaÃ§Ã£o.
+- **Parte 1 Configuracão:** Tailwind CSS 3 instalado com Vite e PostCSS. O `tailwind.config.js` monitora `./src/**/*.{js,ts,jsx,tsx}`; as diretivas Tailwind estão em `src/index.css`, importado por `src/main.jsx`.
+- **Parte 2 Biblioteca UI:** `Button` (`primary`, `secondary`, `danger`, `ghost`), `Badge` (`neutral`, `success`, `warning`, `error`, `info`), `Input` (título, dica e estado de erro) e `Card` com subcomponentes `CardHeader`, `CardContent` e `CardFooter`.
+- **Parte 3 Desafio:** `Alert` aceita `success`, `error` e `warning`, com fundo, texto, ícone e papel acessí­vel adequados a variante. Também pode receber título e callback `onClose`.
+- **Parte 4 Reflexão:** vantagens e desvantagens do Tailwind CSS estÃ£o respondidas na seÃ§Ã£o abaixo e demonstradas na aplicação.
 
 ## Como executar
 
@@ -44,13 +42,13 @@ npm run preview
 </Card>
 ```
 
-## ReflexÃ£o
+## Reflexão
 
-**Quais as vantagens e desvantagens de usar Tailwind CSS em vez de arquivos CSS tradicionais na componentizaÃ§Ã£o do React?**
+**Quais as vantagens e desvantagens de usar Tailwind CSS em vez de arquivos CSS tradicionais na componentizacão do React?**
 
-O Tailwind mantÃ©m as decisÃµes de estilo prÃ³ximas ao JSX, acelera a criaÃ§Ã£o de interfaces e facilita a consistÃªncia visual com tokens e utilitÃ¡rios compartilhados. Em componentes React, isso torna as variaÃ§Ãµes mais explÃ­citas e reduz a necessidade de criar e nomear regras CSS para cada elemento. Os estados responsivos e interativos tambÃ©m ficam visÃ­veis no prÃ³prio componente.
+O Tailwind mantém as decisões de estilo próximas ao JSX, acelera a criação de interfaces e facilita a consistência visual com tokens e utilitários compartilhados. Em componentes React, isso torna as variações mais explícitas e reduz a necessidade de criar e nomear regras CSS para cada elemento. Os estados responsivos e interativos também ficam visíveis no próprio componente.
 
-Por outro lado, listas extensas de classes podem deixar o JSX mais difÃ­cil de ler, e Ã© necessÃ¡rio aprender a convenÃ§Ã£o do Tailwind e ajustar o tema do projeto. Regras muito especÃ­ficas, animaÃ§Ãµes ou estilos com muitos seletores podem ser mais claros em CSS tradicional. TambÃ©m Ã© preciso evitar classes geradas dinamicamente, como `bg-${color}-500`, pois o Tailwind pode nÃ£o encontrÃ¡-las durante a geraÃ§Ã£o do CSS; mapas de classes completas (como os usados nesta biblioteca) sÃ£o mais confiÃ¡veis.
+Por outro lado, listas extensas de classes podem deixar o JSX mais difí­cil de ler, é necessário aprender a conversão do Tailwind e ajustar o tema do projeto. Regras muito especÃ­ficas, animações ou estilos com muitos seletores podem ser mais claros em CSS tradicional. Também é preciso evitar classes geradas dinamicamente, como `bg-${color}-500`, pois o Tailwind pode não encontrá-las durante a geração do CSS; mapas de classes completas (como os usados nesta biblioteca) são mais confiáveis.
 
 ## Estrutura
 
